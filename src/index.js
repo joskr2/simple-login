@@ -20,7 +20,7 @@ import {
 
 // 2
 const GRAPHQL_ENDPOINT = "https://backend-josue.herokuapp.com/";
-const GRAPHQL_WS_ENDPOINT = "ws://backend-josue.herokuapp.com/";
+const GRAPHQL_WS_ENDPOINT = "wss://backend-josue.herokuapp.com/";
 
 const httpLink = createHttpLink({
   uri: GRAPHQL_ENDPOINT,
